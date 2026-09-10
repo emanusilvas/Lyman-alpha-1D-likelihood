@@ -1,0 +1,4 @@
+# Delta_L2 n_L sigma_Delta_L2 sigma_n_L rho
+
+0.379 -2.309 0.032 0.019 -0.1738 #DESI-DR1
+

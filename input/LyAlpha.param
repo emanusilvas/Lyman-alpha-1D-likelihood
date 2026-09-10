@@ -1,0 +1,31 @@
+data.experiments=['LyAlpha']
+
+# Cosmological parameters list
+# Parametrization: omega_b, omega_cdm, 100*theta_s, ln10^{10}A_s, n_s
+
+data.parameters['omega_b']      = [2.2377,  None, None, 0.060,  0.01, 'cosmo']
+data.parameters['omega_cdm']    = [0.1200,  None, None, 0.005,  1,    'cosmo']
+data.parameters['100*theta_s']  = [1.0411,  None, None, 0.0016, 1,    'cosmo']
+data.parameters['ln10^{10}A_s'] = [3.044,   None, None, 0.050,  1,    'cosmo']
+data.parameters['n_s']          = [0.9659,  None, None, 0.016,  1,    'cosmo']
+
+# Derived parameters list
+data.parameters['H0']           = [0, None, None, 0, 1, 'derived']
+data.parameters['sigma8']       = [0, None, None, 0, 1, 'derived']
+data.parameters['Omega_m']      = [0, None, None, 0, 1, 'derived']
+
+# Fixed cosmological parameters
+data.cosmo_arguments['Omega_k'] = 0.
+data.cosmo_arguments['Omega_fld'] = 0.
+
+data.cosmo_arguments['tau_reio'] = 0.0544
+
+data.cosmo_arguments['N_ur'] = 2.0328
+data.cosmo_arguments['N_ncdm'] = 1
+data.cosmo_arguments['m_ncdm'] = 0.06
+data.cosmo_arguments['T_ncdm'] = 0.71611
+
+data.cosmo_arguments['output'] = 'mPk'
+data.cosmo_arguments['P_k_max_h/Mpc'] = 150.
+data.cosmo_arguments['non linear'] = 'halofit'
+data.cosmo_arguments['z_max_pk'] = 4.
