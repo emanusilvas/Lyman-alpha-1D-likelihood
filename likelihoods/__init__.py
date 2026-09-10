@@ -2,7 +2,6 @@
 # DESI DR1 Lyman-alpha 1D likelihood
 # Based on arXiv:2601.21432
 # @moduleauthor:: Emanuelly Silva <emanuelly.santos@ufrgs.br>
-#
 ################################################################
 
 import os
